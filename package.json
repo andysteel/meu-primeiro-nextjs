@@ -1,0 +1,30 @@
+{
+  "name": "meu-primeiro-nextjs",
+  "version": "1.0.0",
+  "description": "First project to test Nextjs at Vercel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andysteel/meu-primeiro-nextjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andysteel/meu-primeiro-nextjs/issues"
+  },
+  "homepage": "https://github.com/andysteel/meu-primeiro-nextjs#readme",
+  "dependencies": {
+    "next": "^10.0.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/next": "^9.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0"
+  }
+}
