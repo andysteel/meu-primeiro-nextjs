@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Link from "next/link"
 
 const Home = () => {
 
@@ -6,6 +7,9 @@ const Home = () => {
         <div>
             <h3>Hello World !</h3>
             <Contador />
+            <Link href="/sobre">
+                <a>Link para página sobre</a>
+            </Link>
         </div>
     )
 }
