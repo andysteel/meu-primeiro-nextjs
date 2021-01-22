@@ -5,7 +5,7 @@ const Home = () => {
 
     return (
         <div>
-            <h3>Hello World !</h3>
+            <h3>Hello World ! in Homolog Environment</h3>
             <Contador />
             <Link href="/sobre">
                 <a>Link para página sobre</a>
