@@ -10,7 +10,7 @@ const Tempo = ({ staticDate }: Props) => {
     return (
         <div>
             <p>{dynamicDate} (dinâmico)</p> 
-            <p>{staticDate} (estático)</p>
+            <p>{staticDate} (estático-revalidando)</p>
         </div>
     )
 }
@@ -21,7 +21,8 @@ export const getStaticProps: GetStaticProps = async (context: GetStaticPropsCont
     return {
         props: {
             staticDate
-        }
+        },
+        revalidate: 5
     }
 }
 
